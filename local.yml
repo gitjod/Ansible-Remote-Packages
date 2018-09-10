@@ -1,6 +1,5 @@
 ---
 - hosts: desktop
-  become: true
   tasks:
   - name: Install the gedit flatpak package
   flatpak:

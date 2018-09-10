@@ -3,4 +3,4 @@
   tasks:
   - name: Install packages
     rpm-ostree: 
-	name: htop
+      name: htop

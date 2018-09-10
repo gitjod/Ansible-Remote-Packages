@@ -2,8 +2,5 @@
   become: true
   tasks:
   - name: Install packages
-    rpm-ostree: name={{item}}
-    with_items:
-      - htop
-      - mc
-      - tmux
+    rpm-ostree: 
+	name: htop

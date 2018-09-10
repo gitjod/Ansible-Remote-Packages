@@ -1,5 +1,5 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: install htop
-    rpm-ostree: name=htop
+  - name: nstall htop
+    'rpm-ostree': name=htop

@@ -2,7 +2,83 @@
 -  hosts: localhost
    become: true 
    tasks:
-   - name: Install the gedit flatpak package
-     flatpak:
-      name: https://git.gnome.org/browse/gnome-apps-nightly/plain/gedit.flatpakref
-      state: present
+   - name: Add the flathub flatpak repository remote to the system installation
+     flatpak_remote:
+       name: flathub
+       state: present
+       flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
+
+   - name: Install flatpak packages from the flathub remote system-wide
+     flatpak: name={{item}}
+     with_items:
+      - com.github.wwmm.pulseeffects
+      - de.haeckerfelix.Fragments
+      - de.haeckerfelix.gradio
+      - io.github.GnomeMpv
+      - nl.hjdskes.gcolor3
+      - org.gimp.GIMP
+      - org.gnome.Calendar
+      - org.gnome.Fractal
+      - org.gnome.Geary
+      - org.gnome.Lollypop
+      - org.gnome.Podcasts
+      - org.gnome.Polari
+      - org.libreoffice.LibreOffice
+      - org.stellarium.Stellarium
+      - org.videolan.VLC
+     state: present
+
+
+   - name: Add the Gnome flatpak remote to the system installation
+     flatpak_remote:
+       name: gnome
+       state: present
+       flatpakrepo_url: https://sdk.gnome.org/gnome-apps.flatpakrepo
+
+   - name: Add the Gnome runtimes flatpak remote to the system installation
+     flatpak_remote:
+       name: gnome
+       state: present
+       flatpakrepo_url: https://sdk.gnome.org/gnome.flatpakrepo
+
+   - name: Add the gnome-nightly flatpak repository remote to the system installation
+     flatpak_remote:
+       name: gnome-nightly
+       state: present
+       flatpakrepo_url: https://sdk.gnome.org/gnome-nightly.flatpakrepo
+
+   - name: Add the org.mozilla.FirefoxRepo flatpak repository remote to the system installation
+     flatpak_remote:
+       name: org.mozilla.FirefoxRepo
+       state: present
+       flatpakrepo_url: https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxRepo.flatpakrepo
+
+   - name: Install flatpak packages from the org.mozilla.FirefoxRepo remote system-wide
+     flatpak: name={{item}}
+     with_items:
+      - org.mozilla.FirefoxDevEdition
+      - org.mozilla.FirefoxNightly
+     state: present
+     remote: org.mozilla.FirefoxRepo
+
+   - name: Install Local Packages        
+     tags: foo                          
+     shell: |                           
+      rpm-ostree install --idempotent \
+      libdvdcss-1.4.2-1.fc28.remi.x86_64 \
+      rpmfusion-free-release-28-1.noarch  \
+      rpmfusion-nonfree-release-28-1.noarch
+
+   - name: Install Remote Packages        
+     tags: foo                          
+     shell: |                           
+      rpm-ostree install --idempotent \
+      arc-theme \
+      chrome-gnome-shell \
+      chromium \
+      gnome-tweaks \
+      gstreamer1-libav \
+      gstreamer1-plugins-bad-freeworld \
+      nautilus-dropbox
+
+

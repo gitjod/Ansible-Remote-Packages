@@ -1,6 +1,7 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: Install packages
-    rpm-ostree: 
-      name: htop
+  - name: Install the gedit flatpak package
+  flatpak:
+    name: https://git.gnome.org/browse/gnome-apps-nightly/plain/gedit.flatpakref
+    state: present

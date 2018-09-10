@@ -1,5 +1,9 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: nstall htop
-    'rpm-ostree': name=htop
+  - name: Install packages
+    rpm-ostree: name={{item}}
+    with_items:
+      - htop
+      - mc
+      - tmux

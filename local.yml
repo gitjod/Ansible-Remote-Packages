@@ -28,7 +28,6 @@
       - org.videolan.VLC
      state: present
 
-
    - name: Add the Gnome flatpak remote to the system installation
      flatpak_remote:
        name: gnome

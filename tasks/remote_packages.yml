@@ -1,4 +1,4 @@
-# install remote packages
+# install remote rpm packages
 
 - name: Install Remote Packages        
      tags: foo                          

@@ -1,23 +1,5 @@
 # install unofficial firefox nightly & firefox dev flatpak remote & packages from https://firefox-flatpak.mojefedora.cz/
 
-   - name: Add the Gnome flatpak remote to the system installation
-     flatpak_remote:
-       name: gnome
-       state: present
-       flatpakrepo_url: https://sdk.gnome.org/gnome-apps.flatpakrepo
-
-   - name: Add the Gnome runtimes flatpak remote to the system installation
-     flatpak_remote:
-       name: gnome
-       state: present
-       flatpakrepo_url: https://sdk.gnome.org/gnome.flatpakrepo
-
-   - name: Add the gnome-nightly flatpak repository remote to the system installation
-     flatpak_remote:
-       name: gnome-nightly
-       state: present
-       flatpakrepo_url: https://sdk.gnome.org/gnome-nightly.flatpakrepo
-
    - name: Add the org.mozilla.FirefoxRepo flatpak repository remote to the system installation
      flatpak_remote:
        name: org.mozilla.FirefoxRepo

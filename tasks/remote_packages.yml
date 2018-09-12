@@ -1,0 +1,13 @@
+# install remote packages
+
+- name: Install Remote Packages        
+     tags: foo                          
+     shell: |                           
+      rpm-ostree install --idempotent \
+      arc-theme \
+      chrome-gnome-shell \
+      chromium \
+      gnome-tweaks \
+      gstreamer1-libav \
+      gstreamer1-plugins-bad-freeworld \
+      nautilus-dropbox

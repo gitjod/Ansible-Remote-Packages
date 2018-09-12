@@ -1,7 +1,4 @@
 ---
--  hosts: localhost
-   become: true 
-   tasks:
    - name: Add the flathub flatpak repository remote to the system installation
      flatpak_remote:
        name: flathub

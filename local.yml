@@ -3,7 +3,8 @@
    become: true 
    
   tasks:
-    - include: tasks/packages.yml
     - include: tasks/flathub_packages.yml
-    - include: tasks/local_packages.yml
-    - include: tasks/remote_packages
+    - include: tasks/gnome_remotes_runtimes.yml
+    - include: tasks/firefox_flatpak_packages.yml
+    - include: tasks/local_rpm_packages.yml
+    - include: tasks/remote_rpm_packages

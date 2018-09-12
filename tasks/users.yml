@@ -2,5 +2,6 @@
 
 - name: create user John
   user: name=john uid=1000
+  group: admin
   
   

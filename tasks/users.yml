@@ -1,0 +1,6 @@
+# create a user called John
+
+- name: create user John
+  user: name=john uid=1000
+  
+  

@@ -17,3 +17,4 @@
        name: gnome-nightly
        state: present
        flatpakrepo_url: https://sdk.gnome.org/gnome-nightly.flatpakrepo
+       

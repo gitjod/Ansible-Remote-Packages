@@ -4,5 +4,6 @@
    
   tasks:
     - include: tasks/packages.yml
+    - include: tasks/flathub_packages.yml
     - include: tasks/local_packages.yml
     - include: tasks/remote_packages

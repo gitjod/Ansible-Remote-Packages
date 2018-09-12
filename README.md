@@ -1,6 +1,6 @@
 # ansible
 
-# Ansible playbook file in YAML format used to install rpm & flatpak packages on new install of Fedora Silverblue 
+Ansible playbook file in YAML format used to install rpm & flatpak packages on new install of Fedora Silverblue 
 
 # Use the following commands to install the listed packages:
 

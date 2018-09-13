@@ -16,6 +16,7 @@
       - nl.hjdskes.gcolor3
       - org.gimp.GIMP
       - org.gnome.Calendar
+      - org.gnome.Evince
       - org.gnome.Fractal
       - org.gnome.Geary
       - org.gnome.Lollypop

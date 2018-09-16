@@ -7,6 +7,7 @@
       arc-theme \
       chrome-gnome-shell \
       chromium \
+      chromium-libs-media-freeworld\
       gnome-tweaks \
       gstreamer1-libav \
       gstreamer1-plugins-bad-freeworld \

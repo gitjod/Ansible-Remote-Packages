@@ -1,5 +1,5 @@
 ---
--  hosts: desktop
+-  hosts: all
    become: true 
    
 - tasks:

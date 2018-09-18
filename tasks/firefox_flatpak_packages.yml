@@ -12,3 +12,4 @@
         - org.mozilla.FirefoxNightly
         - org.mozilla.FirefoxDevEdition
       remote: org.mozilla.FirefoxRepo
+

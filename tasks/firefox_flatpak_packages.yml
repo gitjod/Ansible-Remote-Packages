@@ -6,10 +6,10 @@
        state: present
        flatpakrepo_url: https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxRepo.flatpakrepo      
        
-    - name: Install flatpak packages from the flathub remote system-wide
-      flatpak: name={{item}}
-      with_items:
+   - name: Install flatpak packages from the flathub remote system-wide
+     flatpak: name={{item}}
+     with_items:
         - org.mozilla.FirefoxNightly
         - org.mozilla.FirefoxDevEdition
-      remote: org.mozilla.FirefoxRepo
+     remote: org.mozilla.FirefoxRepo
 

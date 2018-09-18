@@ -11,8 +11,8 @@
      state: present
      remote: org.mozilla.FirefoxRepo
      with_items:
-      - org.mozilla.FirefoxDevEdition
-      - org.mozilla.FirefoxNightly      
+       - org.mozilla.FirefoxDevEdition
+       - org.mozilla.FirefoxNightly      
     
      
      

@@ -3,9 +3,9 @@
    become: true 
    
   tasks:
-    -  include: tasks/flathub_flatpak_packages.yml
-    -  include: tasks/remote_rpm_packages.yml
-    -  include: tasks/gnome_remotes_runtimes.yml
-    -  include: tasks/firefox_flatpak_packages.yml
+    include: tasks/flathub_flatpak_packages.yml
+    include: tasks/remote_rpm_packages.yml
+    include: tasks/gnome_remotes_runtimes.yml
+    include: tasks/firefox_flatpak_packages.yml
 
 

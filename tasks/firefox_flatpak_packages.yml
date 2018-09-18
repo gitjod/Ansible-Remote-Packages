@@ -10,7 +10,6 @@
      flatpak: name={{item}}
      remote: org.mozilla.FirefoxRepo
      with_items:
-       - org.mozilla.FirefoxNightly
        - org.mozilla.FirefoxDevEdition
-     
+       - org.mozilla.Fireforg.mozilla.FirefoxNightly
 

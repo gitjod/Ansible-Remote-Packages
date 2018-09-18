@@ -14,7 +14,7 @@
      
      - name: Install the firefox dev edition from the Mozilla remote system-wide
        flatpak:
-         name: org.mozilla.Firefox
+         name: org.mozilla.FirefoxNightly
          state: present
-         remote: org.Mozilla.FirefoxNightly
+         remote: org.Mozilla.FirefoxRepo
      

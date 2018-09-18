@@ -25,5 +25,5 @@
     - org.libreoffice.LibreOffice
     - org.stellarium.Stellarium
     - org.videolan.VLC
-  # state: present
+ 
      

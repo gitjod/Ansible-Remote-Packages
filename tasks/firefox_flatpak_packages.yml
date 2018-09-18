@@ -6,7 +6,7 @@
        state: present
        flatpakrepo_url: https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxRepo.flatpakrepo      
     
-    - name: Install the firefox dev edition from the Mozilla remote system-wide
+    -name: Install the firefox dev edition from the Mozilla remote system-wide
       flatpak:
         name: org.mozilla.FirefoxDevEdition
         state: present

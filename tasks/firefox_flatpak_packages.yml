@@ -4,12 +4,17 @@
      flatpak_remote:
        name: org.mozilla.FirefoxRepo
        state: present
-       flatpakrepo_url: https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxRepo.flatpakrepo      
+       flatpakrepo_url: https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxRepo.flatpakrepo
        
-   - name: Install flatpak packages from the org.mozilla.FirefoxRepo remote system-wide
-     flatpak: name={{item}}
-     flatpak_remote: org.mozilla.FirefoxRepo
-     with_items:
-       - org.mozilla.FirefoxDevEdition
-       - org.mozilla.FirefoxNightly
-       
+   - name: Install the Firefox nightly flatpak from the org.mozilla.Firefox remote system-wide
+      flatpak:
+      name: org.mozilla.FirefoxNightly
+      state: present
+      remote: org.mozilla.FirefoxRepo
+      
+   #- name: Install flatpak packages from the org.mozilla.FirefoxRepo remote system-wide
+   #  flatpak: name={{item}}
+   #  remote: org.mozilla.FirefoxRepo
+   #  with_items:
+   #    - org.mozilla.FirefoxDevEdition
+   #    - org.mozilla.FirefoxNightly

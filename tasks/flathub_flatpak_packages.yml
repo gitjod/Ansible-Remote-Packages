@@ -7,7 +7,7 @@
     flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
 
 - name: Install flatpak packages from the flathub remote system-wide
-     flatpak: name="{{item}}"
+     flatpak: name={{item}}
      with_items:
       - com.github.wwmm.pulseeffects
       - de.haeckerfelix.Fragments

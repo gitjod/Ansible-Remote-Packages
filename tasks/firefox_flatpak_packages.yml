@@ -8,6 +8,7 @@
        
    - name: Install flatpak packages from the org.mozilla.FirefoxRepo remote system-wide
      flatpak: name={{item}}
-     remote: org.mozilla.FirefoxRepo
      with_items:
        - org.mozilla.FirefoxDevEdition
+       - org.mozilla.FirefoxNightly
+       - remote: org.mozilla.FirefoxRepo

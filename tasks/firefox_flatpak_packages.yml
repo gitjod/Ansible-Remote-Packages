@@ -17,5 +17,9 @@
          name: org.mozilla.FirefoxNightly
          state: present
          remote: org.Mozilla.FirefoxRepo
+         
+      - name: Install flatpak packages from the flathub remote system-wide
+        flatpak: name={{item}}
+        with_items:
      
 

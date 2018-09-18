@@ -11,4 +11,4 @@
      with_items:
        - org.mozilla.FirefoxDevEdition
        - org.mozilla.FirefoxNightly
-     remote: org.mozilla.FirefoxRepo
+       remote: org.mozilla.FirefoxRepo

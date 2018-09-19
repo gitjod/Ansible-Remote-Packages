@@ -15,6 +15,6 @@
   tags: foo                          
   shell: |      
     rpm-ostree install --idempotent \
-    epson*
+    iscan*
   args:
     chdir: /home/john/Downloads/Epson  

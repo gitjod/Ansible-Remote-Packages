@@ -1,4 +1,4 @@
-#install local rpm packages
+#install local rpm packages downloaded from the web
 
 - name: Install Local Packages        
      tags: foo                          

@@ -18,4 +18,4 @@
     iscan-data-1.36.0-1.noarch \
     iscan-2.30.2-2.x86_64
   args:
-    chdir: /home/john/Downloads/Epson/ 
+    chdir: /home/john/Downloads/Epson 

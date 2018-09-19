@@ -11,4 +11,10 @@
   args:
     chdir: /home/john/Downloads/
     
-    
+- name: Install Local Packages        
+  tags: foo                          
+  shell: |      
+    rpm-ostree install --idempotent \
+    epson*
+  args:
+    chdir: /home/john/Downloads/Epson  

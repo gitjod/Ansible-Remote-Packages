@@ -4,7 +4,7 @@
   tags: foo                          
   shell: |      
     rpm-ostree install --idempotent \
-    flash-player-npapi-30.0.0.154-release.x86_64
+    flash-player-npapi-*
   args:
     chdir: /home/john/Downloads/
     

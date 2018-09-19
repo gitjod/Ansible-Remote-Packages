@@ -1,11 +1,11 @@
 #install local rpm packages downloaded from the web
 
 - name: Install Local Packages        
-     tags: foo                          
-     shell: |    
-      cd Downloads
-      rpm-ostree install --idempotent \
-      libdvdcss-1.4.2-1.fc28.remi.x86_64 \
-      rpmfusion-free-release-28-1.noarch  \
-      rpmfusion-nonfree-release-28-1.noarch
+  tags: foo                          
+  shell: |      
+    cd Downloads
+    rpm-ostree install --idempotent \
+    libdvdcss-1.4.2-1.fc28.remi.x86_64 \
+    rpmfusion-free-release-28-1.noarch  \
+    rpmfusion-nonfree-release-28-1.noarch
 

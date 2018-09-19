@@ -14,8 +14,6 @@
   tags: foo                          
   shell: |      
     rpm-ostree install \
-    iscan-plugin-gt* \
-    iscan-data* \
     iscan-*
   args:
     chdir: /home/john/Downloads/Epson/ 

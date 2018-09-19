@@ -19,11 +19,13 @@
     - org.gnome.Evince
     - org.gnome.Fractal
     - org.gnome.Geary
+    - org.gtk.Gtk3theme.Arc
+    - org.gtk.Gtk3theme.Arc-Dark
     - org.gnome.Lollypop
     - org.gnome.Podcasts
     - org.gnome.Polari
     - org.libreoffice.LibreOffice
     - org.stellarium.Stellarium
     - org.videolan.VLC
+    
  
-     

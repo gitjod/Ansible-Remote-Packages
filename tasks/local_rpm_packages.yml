@@ -7,7 +7,7 @@
     libdvdcss-1.4.2-1.fc28.remi.x86_64 \
     rpmfusion-free-release-28-1.noarch  \
     rpmfusion-nonfree-release-28-1.noarch \
-    flash-player-npapi-*
+    flash-player-npapi-30.0.0.154-release.x86_64
   args:
     chdir: /home/john/Downloads/
     
@@ -19,4 +19,4 @@
     iscan-data-1.36.0-1.noarch \
     iscan-2.30.2-2.x86_64
   args:
-    chdir: /home/john/Downloads/Epson  
+    chdir: /home/john/Downloads/Epson/  

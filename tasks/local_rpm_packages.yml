@@ -16,6 +16,6 @@
     rpm-ostree install \
     iscan-2.30.2-2.x86_64 \
     iscan-plugin-gt-x820-2.2.0-1.x86_64 \
-    iscan-data-1.36.0-1.noarch
+    iscan-data-1.36.0-1.noarch \
   args:
     chdir: /home/john/Downloads/Epson 

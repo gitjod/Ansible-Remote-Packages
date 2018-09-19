@@ -13,6 +13,6 @@
 - name: Install Local Packages        
   tags: foo                          
   shell: |      
-    rpm-ostree install iscan-*
+    rpm-ostree install iscan-* \
   args:
     chdir: /home/john/Downloads/Epson 

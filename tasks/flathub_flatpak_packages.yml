@@ -15,17 +15,20 @@
     - io.github.GnomeMpv
     - nl.hjdskes.gcolor3
     - org.gimp.GIMP
+    - org.gnome.Builder
     - org.gnome.Calendar
     - org.gnome.Evince
     - org.gnome.Fractal
     - org.gnome.Geary
+    - org.gnome.Glade
     - org.gtk.Gtk3theme.Arc
     - org.gtk.Gtk3theme.Arc-Dark
     - org.gnome.Lollypop
+    - org.gnome.PasswordSafe
     - org.gnome.Podcasts
     - org.gnome.Polari
     - org.libreoffice.LibreOffice
+    - org.pitivi.Pitivi
     - org.stellarium.Stellarium
     - org.videolan.VLC
     
- 

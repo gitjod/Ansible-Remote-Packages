@@ -24,7 +24,6 @@
     - org.gtk.Gtk3theme.Arc
     - org.gtk.Gtk3theme.Arc-Dark
     - org.gnome.Lollypop
-    - org.gnome.PasswordSafe
     - org.gnome.Podcasts
     - org.gnome.Polari
     - org.libreoffice.LibreOffice

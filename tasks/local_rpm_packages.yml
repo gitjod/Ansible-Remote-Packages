@@ -4,7 +4,7 @@
   tags: foo                          
   shell: |      
     rpm-ostree install --idempotent \
-    'rpmfusion-free-release-28-1.noarch' \
+    'rpmfusion-free*' \
     'rpmfusion-nonfree-release-28-1.noarch' \
     'flash-plugin-30.0.0.154-release.x86_64'
   args:

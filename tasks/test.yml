@@ -1,8 +1,9 @@
-# install remote rpm packages
+# install local rpm packages
 
-- name: Install Remote Packages        
+- name: Install Local Packages        
   tags: foo                          
   shell: |                           
-    ls >> log.txt 
+    rpm-ostree install --idempotent \ 
+    
   args: 
      chdir: /var/home/john/Downloads 

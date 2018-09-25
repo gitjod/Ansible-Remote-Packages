@@ -6,8 +6,9 @@
     rpm-ostree install \
     libdvdcss-1.4.2-1.fc28.remi.x86_64 \
     rpmfusion-free-release-28-1.noarch  \
-    rpmfusion-nonfree-release-28-1.noarch 
+    rpmfusion-nonfree-release-28-1.noarch \
+    flash-plugin-30.0.0.154-release.x86_64
   args:
-  chdir: /home/john/Downloads
+     chdir: /home/john/Downloads
     
-#flash-plugin-30.0.0.154-release.x86_64 \
+# \

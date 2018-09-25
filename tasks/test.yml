@@ -1,1 +1,8 @@
-#Test file
+# install remote rpm packages
+
+- name: Install Remote Packages        
+  tags: foo                          
+  shell: |                           
+    ls >> log.txt 
+  args: 
+     chdir: /var/home/john/Downloads 

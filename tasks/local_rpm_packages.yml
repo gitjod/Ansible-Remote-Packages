@@ -8,6 +8,6 @@
     rpmfusion-free-release-28-1.noarch  \
     rpmfusion-nonfree-release-28-1.noarch 
   args:
-    chdir: /var/home/john/Downloads
+    chdir: /home/john/Downloads
     
 #flash-plugin-30.0.0.154-release.x86_64 \

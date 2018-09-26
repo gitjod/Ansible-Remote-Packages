@@ -18,8 +18,8 @@
        state: present
        flatpakrepo_url: https://sdk.gnome.org/gnome-nightly.flatpakrepo
        
-   -name: Add the gnome-nightly repo system widem which provides the nighty Gnome apps    
-    flatpak_remote:   
-      name: gnome-nightly
-      state: present
-      flatpakrepo_url: https://sdk.gnome.org/gnome-apps-nightly.flatpakrepo
+   - name: Add the gnome-nightly repo system widem which provides the nighty Gnome apps    
+     flatpak_remote:   
+       name: gnome-nightly
+       state: present
+       flatpakrepo_url: https://sdk.gnome.org/gnome-apps-nightly.flatpakrepo

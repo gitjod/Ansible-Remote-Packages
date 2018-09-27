@@ -4,5 +4,5 @@ Ansible playbook and taskbook files in YAML format used to install flatpak remot
 
 Use the following command to install the remotes and packages listed in the folder tasks:
 
-sudo ansible-pull -U https://github.com/gitjod/ansible.git
+sudo ansible-pull -U https://github.com/gitjod/Ansible-Remote-Packages.git
 

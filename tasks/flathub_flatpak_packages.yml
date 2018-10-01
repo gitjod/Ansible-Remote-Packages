@@ -1,38 +1,33 @@
 # install flatpak packages & remote from flathub https://flathub.org/home
 
-#- name: Add the flathub flatpak repository remote to the user installation
- # flatpak_remote:
-  #  name: flathub
-   # state: present
-    #flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
-
-- name: Install the spotify flatpak
-  flatpak:
-    name: org.gnome.Evince
+- name: Add the flathub flatpak repository remote to the user installation
+  flatpak_remote:
+    name: flathub
     state: present
+    flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
 
-#- name: Install flatpak packages from the flathub remote system-wide
- # flatpak: name={{item}}
-  #with_items:
-   # - com.github.wwmm.pulseeffects
-    #- de.haeckerfelix.Fragments
-    #- de.haeckerfelix.gradio
-    #- io.github.GnomeMpv
-    #- nl.hjdskes.gcolor3
-    #- org.gimp.GIMP
-    #- org.gnome.Builder
-    #- org.gnome.Calendar
-    #- org.gnome.Evince
-    #- org.gnome.Fractal
-    #- org.gnome.Geary
-    #- org.gnome.Glade
-    #- org.gtk.Gtk3theme.Arc
-    #- org.gtk.Gtk3theme.Arc-Dark
-    #- org.gnome.Lollypop
-    #- org.gnome.Podcasts
-    #- org.gnome.Polari
-    #- org.libreoffice.LibreOffice
-    #- org.pitivi.Pitivi
-    #- org.stellarium.Stellarium
-    #- org.videolan.VLC
+- name: Install flatpak packages from the flathub remote system-wide
+  flatpak: name={{item}}
+  with_items:
+    - com.github.wwmm.pulseeffects
+    - de.haeckerfelix.Fragments
+    - de.haeckerfelix.gradio
+    - io.github.GnomeMpv
+    - nl.hjdskes.gcolor3
+    - org.gimp.GIMP
+    - org.gnome.Builder
+    - org.gnome.Calendar
+    - org.gnome.Evince
+    - org.gnome.Fractal
+    - org.gnome.Geary
+    - org.gnome.Glade
+    - org.gtk.Gtk3theme.Arc
+    - org.gtk.Gtk3theme.Arc-Dark
+    - org.gnome.Lollypop
+    - org.gnome.Podcasts
+    - org.gnome.Polari
+    - org.libreoffice.LibreOffice
+    - org.pitivi.Pitivi
+    - org.stellarium.Stellarium
+    - org.videolan.VLC
     

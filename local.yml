@@ -1,5 +1,5 @@
 ---
--  hosts: localhost-py3
+-  hosts: localhost
    become: true 
    tasks:
      - include: tasks/flathub_flatpak_packages.yml

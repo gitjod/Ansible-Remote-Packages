@@ -5,6 +5,20 @@
     name: flathub
     state: present
     flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
+    
+#install gnome and gnome-nightly remotes and runtimes
+
+- name: Add the gnome-nightly repo system wide, which provides the nightly Gnome runtimes
+  flatpak_remote:
+    name: gnome-nightly
+    state: present
+    flatpakrepo_url: https://sdk.gnome.org/gnome-nightly.flatpakrepo
+       
+- name: Add the gnome-nightly repo system wide, which provides the nighty Gnome apps    
+  flatpak_remote:   
+    name: gnome-nightly
+    state: present
+    flatpakrepo_url: https://sdk.gnome.org/gnome-apps-nightly.flatpakrepo    
 
 - name: Install flatpak packages from the flathub remote system-wide
   flatpak: name={{item}}
@@ -17,7 +31,7 @@
     - de.haeckerfelix.Fragments
     - de.haeckerfelix.Remotely
     - io.github.celluloid_player.Celluloid
-    #- org.cvfosammmm.Setzer
+    - org.cvfosammmm.Setzer
     - org.darktable.Darktable
     - org.gimp.GIMP
     - org.gnome.Evolution

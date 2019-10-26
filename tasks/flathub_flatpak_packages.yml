@@ -6,7 +6,7 @@
     state: present
     flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
     
-#install gnome and gnome-nightly remotes and runtimes
+# install gnome-nightly remotes and runtimes
 
 - name: Add the gnome-nightly repo system wide, which provides the nightly Gnome runtimes
   flatpak_remote:

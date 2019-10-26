@@ -1,16 +1,16 @@
 #install gnome and gnome-nightly remotes and runtimes
 
-   - name: Add the Gnome repo system wide, which provides the Gnome apps
-     flatpak_remote:
-       name: gnome
-       state: present
-       flatpakrepo_url: https://sdk.gnome.org/gnome-apps.flatpakrepo
+   #- name: Add the Gnome repo system wide, which provides the Gnome apps
+    # flatpak_remote:
+     #  name: gnome
+      # state: present
+       #flatpakrepo_url: https://sdk.gnome.org/gnome-apps.flatpakrepo
 
-   - name: Add the Gnome repo system wide, which provides the Gnome runtimes
-     flatpak_remote:
-       name: gnome
-       state: present
-       flatpakrepo_url: https://sdk.gnome.org/gnome.flatpakrepo
+   #- name: Add the Gnome repo system wide, which provides the Gnome runtimes
+    # flatpak_remote:
+     #  name: gnome
+      # state: present
+       #flatpakrepo_url: https://sdk.gnome.org/gnome.flatpakrepo
 
    - name: Add the gnome-nightly repo system wide, which provides the nightly Gnome runtimes
      flatpak_remote:

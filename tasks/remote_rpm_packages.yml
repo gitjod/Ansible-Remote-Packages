@@ -10,6 +10,9 @@
     chromium-libs-media-freeworld\
     gnome-tweaks \
     gstreamer1-libav \
-    gstreamer1-plugins-bad-freeworld \
-    nautilus-dropbox
-      
+    dropbox \
+    nautilus-dropbox \
+    ffmpeg \
+    gnome-tweaks \
+    gnome-weather \
+    youtube-dl  

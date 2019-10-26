@@ -36,6 +36,8 @@
     - org.gnome.Builder
     - org.gnome.Calendar
     - org.gnome.Calculator
+    - org.gnome.Characters
+    - org.gnome.Chess
     - org.gnome.Evince
     - org.gnome.Evolution
     - org.gnome.Firmware

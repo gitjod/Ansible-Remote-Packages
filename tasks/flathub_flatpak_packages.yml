@@ -9,25 +9,37 @@
 - name: Install flatpak packages from the flathub remote system-wide
   flatpak: name={{item}}
   with_items:
+    - com.github.maoschanz.DynamicWallpaperEditor
+    - com.github.maoschanz.drawing
     - com.github.wwmm.pulseeffects
+    - com.rawtherapee.RawTherapee
+    - com.vinszent.GnomeTwitch
     - de.haeckerfelix.Fragments
-    - de.haeckerfelix.gradio
-    - io.github.GnomeMpv
-    - nl.hjdskes.gcolor3
+    - de.haeckerfelix.Remotely
+    - io.github.celluloid_player.Celluloid
+    - org.cvfosammmm.Setzer
+    - org.darktable.Darktable
     - org.gimp.GIMP
-    - org.gnome.Builder
-    - org.gnome.Calendar
-    - org.gnome.Evince
+    - org.gnome.Evolution
+    - org.gnome.Firmware
     - org.gnome.Fractal
+    - org.gnome.Games
     - org.gnome.Geary
     - org.gnome.Glade
     - org.gtk.Gtk3theme.Arc
     - org.gtk.Gtk3theme.Arc-Dark
     - org.gnome.Lollypop
+    - org.gnome.PasswordSafe
     - org.gnome.Podcasts
-    - org.gnome.Polari
+    - org.gnome.SoundRecorder
+    - org.gnome.Tau
+    - org.gnome.Totem
+    - org.gnome.Totem.Codecs
+    - org.gnome.gitlab.Cowsay
+    - org.gnome.seahorse.Application
     - org.libreoffice.LibreOffice
     - org.pitivi.Pitivi
+    - org.pitivi.Pitivi.Codecs
     - org.stellarium.Stellarium
     - org.videolan.VLC
-    
+  

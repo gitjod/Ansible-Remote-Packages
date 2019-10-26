@@ -6,7 +6,7 @@
     rpm-ostree install --idempotent \
     arc-theme \
     chromium \
-    chromium-libs-media-freeworld \
+    chromium-libs-media \
     gnome-tweaks \
     gstreamer1-libav \
     dropbox \

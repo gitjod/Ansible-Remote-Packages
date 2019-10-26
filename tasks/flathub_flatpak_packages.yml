@@ -17,7 +17,7 @@
     - de.haeckerfelix.Fragments
     - de.haeckerfelix.Remotely
     - io.github.celluloid_player.Celluloid
-    - org.cvfosammmm.Setzer
+    #- org.cvfosammmm.Setzer
     - org.darktable.Darktable
     - org.gimp.GIMP
     - org.gnome.Evolution

@@ -31,9 +31,12 @@
     - de.haeckerfelix.Fragments
     - de.haeckerfelix.Remotely
     - io.github.celluloid_player.Celluloid
-    - org.cvfosammmm.Setzer
     - org.darktable.Darktable
     - org.gimp.GIMP
+    - org.gnome.Builder
+    - org.gnome.Calendar
+    - org.gnome.Calculator
+    - org.gnome.Evince
     - org.gnome.Evolution
     - org.gnome.Firmware
     - org.gnome.Fractal

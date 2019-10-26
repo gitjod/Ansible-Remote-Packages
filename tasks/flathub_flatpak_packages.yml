@@ -33,7 +33,6 @@
     - io.github.celluloid_player.Celluloid
     - org.darktable.Darktable
     - org.gimp.GIMP
-    - org.gnome.Builder
     - org.gnome.Calendar
     - org.gnome.Calculator
     - org.gnome.Characters
@@ -44,7 +43,6 @@
     - org.gnome.Fractal
     - org.gnome.Games
     - org.gnome.Geary
-    - org.gnome.Glade
     - org.gtk.Gtk3theme.Arc
     - org.gtk.Gtk3theme.Arc-Dark
     - org.gnome.Lollypop

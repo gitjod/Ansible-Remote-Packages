@@ -1,4 +1,4 @@
-# install remote rpm packages
+# install/layer remote rpm packages over the base image
 
 - name: Install Remote Packages        
   tags: foo                          

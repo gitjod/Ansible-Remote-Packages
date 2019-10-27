@@ -6,4 +6,4 @@ Use the following command to install the remotes and packages listed in the fold
 
 sudo ansible-pull -U https://github.com/gitjod/Ansible-Remote-Packages.git
 
-Tested 26th October 2019 on Fedora Silverblue 31
+Updated and tested 26th October 2019 on Fedora Silverblue 31
